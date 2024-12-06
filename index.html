@@ -1,182 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prótesis Humanas en el Futuro</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: lightcyan;
-        }
-        header {
-            background-color: cornflowerblue;
-            color: #ffffff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            background-color: skyblue;
-            overflow: hidden;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-        nav ul li {
-            flex: 1;
-        }
-        nav ul li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        nav ul li a:hover {
-            background-color: blue;
-        }
-        .content {
-            padding: 20px;
-            display: none;
-        }
-        .content.active {
-            display: block;
-        }
-    </style>
-    <script>
-        function showSection(sectionId) {
-            const sections = document.querySelectorAll('.content');
-            sections.forEach(section => {
-                section.classList.remove('active');
-            });
-            document.getElementById(sectionId).classList.add('active');
-        }
-    </script>
+    <title>Diseño Futurista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="1.css">
 </head>
-<body onload="showSection('inicio')">
-
-    <header>
-        <h1>Protesis humanas en el futuro</h1>
-    </header>
-
+<body>
     <nav>
-        <ul>
-            <li><a href="#" onclick="showSection('inicio')">Inicio</a></li>
-            <li><a href="#" onclick="showSection('tipos')">Tipos de Prótesis</a></li>
-            <li><a href="#" onclick="showSection('beneficios')">Beneficios</a></li>
-            <li><a href="#" onclick="showSection('adaptacion')">Proceso de Adaptación</a></li>
-            <li><a href="#" onclick="showSection('contacto')">Contacto</a></li>
-        </ul>
+        <a href="tipos1.html">Tipos de protesis</a>
+        <a href="fuentes.html">Fuentes de Informacion</a>
+        <a href="avances.html">Avances Tecnologicos en las Protesis</a>
+        <a href="protesisampliadas.html">Protesis con las capacidades ampliadas</a>
+         <a href="videojuegos.html">Protesis en Videojuegos</a>
+        <a href="materiales.html">Materiales en protesis</a>
+        <a href="nosotros.html">Nosotros</a>
     </nav>
-
-    <div class="content" id="inicio">
-        <h2>Bienvenido a Prótesis Humanas en el Futuro</h2>
-        <p>En esta pagina daremos un vistazo a lo que sera el futuro de la salud,En el futuro, las prótesis humanas no solo reemplazarán partes del cuerpo; irán más allá de las capacidades naturales, integrándose con el sistema nervioso y permitiendo fuerza, agilidad y precisión mejoradas. Con la inteligencia artificial y nuevos materiales, podríamos tener prótesis que no solo devuelvan funciones perdidas, sino que también potencien habilidades, replanteando los límites de lo humano. </p>
-        <img alt="imagen de protesis hecha con ia" width="500" height="500" src="protesis ia.webp">
+    <div class="container">
+        <h1>Bienvenidos al Futuro</h1>
+        <p class="futuristic-text">Explora los límites de la Medicina</p>
+        <div class="card">
+            <h2>Protesis en el futuro</h2>
+            <p>daremos un vistaso al futuro de las protesis medicas.</p>
+            <p>Imagina un mundo donde las prótesis no solo reemplazan, sino que mejoran las capacidades humanas. Un futuro donde la tecnología, la biomedicina y la inteligencia artificial se unen para crear soluciones que parecen salidas de la ciencia ficción. Aquí, exploramos cómo los avances en impresión 3D, interfaces neuronales y materiales inteligentes están redefiniendo los límites de lo posible.</p>
+<p>Ya sea que busques información sobre las últimas innovaciones, historias inspiradoras o cómo estas tecnologías impactarán la calidad de vida, estás en el lugar adecuado. Únete a nosotros en este viaje hacia un futuro donde las prótesis no solo restauran, sino que reinventan lo que significa ser humano.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EWgJvtNJcmw?si=aOxNGBLGTQVF39sl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
-
-    <div class="content" id="tipos">
-        <h2>Tipos de Prótesis</h2>
-        <p>Existen varios tipos de prótesis diseñadas para adaptarse a diferentes necesidades y partes del cuerpo. Aquí están algunos de los más comunes:</p>
-
-        <p>Prótesis de extremidades (piernas y brazos):</p>
-        
-
-<p>Prótesis de pierna: Diseñadas para reemplazar una pierna o parte de ella, y permitir caminar, correr o realizar actividades cotidianas. Pueden ser de bajo impacto o de alto rendimiento, incluyendo prótesis deportivas.</p>
-        <img alt="imagen de protesis" width="300" height="300" src="protesis1.jpg">
-        <p>Prótesis de brazo: Sustituyen el brazo o la mano y pueden tener diferentes grados de funcionalidad, desde versiones básicas hasta brazos biónicos controlados por impulsos nerviosos.</p>
-         <img alt="imagen de protesis" width="300" height="300" src="protesis 2.jpg">
-    <p>Prótesis mioeléctricas:</p>
-
-        <p>Estas prótesis de brazo o mano se controlan mediante señales musculares de la persona usuaria. Sensores colocados en la prótesis detectan los impulsos eléctricos en los músculos para mover la prótesis de manera precisa.</p>
-        <img alt="" width="500" height="300" src="protesis 3.jfif">
-    <p>Prótesis biónicas:</p>
-
-<p>Prótesis avanzadas que utilizan tecnología de robótica e inteligencia artificial para imitar el movimiento y las sensaciones de las extremidades naturales. Son capaces de recibir señales del cerebro o los músculos y responder a ellas, permitiendo un control más natural.</p>
-        <img alt="" width="500" height="304" src="protesis 4.webp">
-    <p>Prótesis cosméticas o pasivas:
-
-Estas prótesis están diseñadas para replicar la apariencia de una parte del cuerpo, sin necesariamente tener funcionalidad activa. Se utilizan principalmente para mejorar la estética, como manos o dedos, y están fabricadas con materiales que imitan la piel.</p>
-        <img alt="" width="500" height="300" src="protesis 5.jpg">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9UfD13QFanw?si=1vG9Tp2hn7E1LtEL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p>Prótesis de órganos internos:
-
-Incluyen dispositivos como los marcapasos (para el corazón), prótesis de válvulas cardíacas, y prótesis de cadera o rodilla (implantes ortopédicos) que reemplazan las articulaciones dañadas para mejorar la movilidad y reducir el dolor.</p>
-        <img alt="" width="500" height="300" src="protesis 6.jfif">
-<p>Prótesis adaptativas:
-
-Especialmente diseñadas para personas que realizan actividades deportivas o específicas, como correr, nadar o tocar instrumentos musicales. Son personalizables y permiten realizar actividades de alto rendimiento.
-Estos tipos de prótesis están en constante evolución, con avances en materiales y tecnología que permiten mejoras significativas en la calidad de vida y la independencia de las personas usuarias.</p>
-        <img alt="" width="400" height="300" src="protesis 7.jfif">
-    </div>
-
-    <div class="content" id="beneficios">
-        <h2>Beneficios de las Prótesis Humanas</h2>
-        <p>Las prótesis aportan varios beneficios al ser humano:</p>
-        <p>·Mejora la calidad de vida de los pacientes.</p>
-<p>·Permite recuperar la funcionalidad de la boca: el paciente podrá volver a masticar alimentos con normalidad.</p>
-        <p>·Una fonética correcta.</p>
-        <p>·Se integran en la fisionomía de cada paciente.</p>
-        <p>·Son higiénicas y fáciles de limpiar.</p>
-        <p>·Permite que las personas tengan movilidad en alguna zona de su cuerpo o cara.</p>
-<p>·Ayuda a que su autoestima aumente y que se reincorpore a su entorno social y tenga, en consecuencia, un mejor estilo de vida.</p>
-        <img alt="" width="600" height="400" src="beneficios 1.jfif">
-    </div>
-
-    <div class="content" id="adaptacion">
-        <h2>Proceso de Adaptación</h2>
-        <p>La adaptación a una prótesis es un proceso gradual y personalizado que requiere tiempo, paciencia y apoyo médico y psicológico. Aquí están los pasos principales de este proceso:</p>
-
-        <p>Evaluación inicial y selección de la prótesis:</p>
-
-<p>En primer lugar, se realiza una evaluación física y psicológica para determinar las necesidades, objetivos y capacidades de la persona. El equipo médico y el especialista en prótesis ayudan a elegir el tipo de prótesis más adecuado en función de factores como el estilo de vida, el nivel de actividad y la comodidad.
-   <p>·Preparación del muñón:</p>
-
-<p>Después de una amputación, es necesario que el muñón sane y se adapte para usar una prótesis. Esto incluye cuidados de la piel, manejo del dolor y ejercicios para reducir la hinchazón y mejorar la fuerza muscular. La terapia física es fundamental para preparar el muñón para soportar la prótesis sin causar molestias.</p>
-<p>·Moldeado y personalización:</p>
-
-<p>Se crea un molde del muñón o de la parte del cuerpo a la que se unirá la prótesis, lo cual permite diseñar una prótesis personalizada. Este proceso asegura un ajuste perfecto que maximiza la comodidad y la funcionalidad.</p>
-<p>·Entrenamiento inicial:</p>
-
-<p>Una vez que la prótesis está lista, comienza el entrenamiento básico. En esta fase, el usuario aprende a colocar y quitar la prótesis, a realizar ajustes y a cuidar del dispositivo. Si la prótesis es mioeléctrica o biónica, se necesita entrenamiento adicional para controlar la prótesis con señales musculares o neuronales.</p>
-<p>·Fisioterapia y reeducación motriz:</p>
-
-<p>Se realiza un programa de fisioterapia para fortalecer el cuerpo y adaptarse a los movimientos de la prótesis. La reeducación motriz es clave para aprender a caminar, manipular objetos o realizar movimientos específicos, dependiendo del tipo de prótesis.</p>
-<p>·Adaptación psicológica y emocional:</p>
-
-<p>La adaptación a una prótesis implica un proceso emocional importante, ya que cambia la percepción del cuerpo y puede ser un reto psicológico. El apoyo psicológico y el trabajo con grupos de apoyo o terapeutas especializados ayudan a mejorar la aceptación y a reducir el estrés y la ansiedad asociados.</p>
-<p>·Ajustes y mantenimiento continuos:</p>
-
-<p>Con el tiempo, es común que se necesiten ajustes en la prótesis debido a cambios en el muñón, el crecimiento muscular o cambios de peso. Las revisiones periódicas garantizan que la prótesis siga siendo funcional y cómoda.</p>
-<p>·Mejora de habilidades y autonomía:</p>
-
-<p>A medida que el usuario se adapta, el siguiente paso es mejorar las habilidades en actividades específicas. Esto puede incluir actividades cotidianas, laborales o deportivas, aumentando gradualmente la independencia y la confianza en la prótesis.</p>
-<p>La adaptación a una prótesis es un proceso dinámico, que varía de una persona a otra y puede requerir ajustes en cada etapa. La colaboración constante entre el usuario, los profesionales médicos y el equipo de rehabilitación es esencial para una integración exitosa.</p>
-        <img alt="" width="512" height="512" src="adaptacion.webp">
-    </div>
-
-    <div class="content" id="contacto">
-        <h2>Fuentes y Contacto</h2>
-        <p>Si deseas más información, contáctanos a bvederiransanchezcadena@gmail.com</p>
-        <p>Este sitio fue hecho de manera educativa, para un trabajo de escuela</p>
-        <p>FUENTES:</p>
-        <p>Serrano, L. (n.d.). Beneficios de las prótesis. https://www.notifresh.com/beneficios-de-las-protesis/</p>
-        <p>Omg, C. (2023, September 4). Cientí­ficos reportan avance en la creación de prótesis motorizadas. OhMyGeek! https://ohmygeek.net/2013/09/27/nueva-tecnologia-pretende-ayudar-gente-que-usa-protesis-motorizadas/</p>
-        <p>ChatGPT. (2024). Tipos de prótesis y procesos de adaptación a las prótesis. OpenAI.</p>
-        <p>Galegas, P. (2024, January 16). Cómo adaptarse a las prótesis dentales y evitar las molestias. Dra. Montserrat Macenlle García. https://www.dentalmacenlle.com/como-adaptarse-a-las-protesis-dentales-y-evitar-las-molestias_fb185855.html</p>
-        <p>Galegas, P. (2024, January 16). Cómo adaptarse a las prótesis dentales y evitar las molestias. Dra. Montserrat Macenlle García. https://www.dentalmacenlle.com/como-adaptarse-a-las-protesis-dentales-y-evitar-las-molestias_fb185855.html</p>
-        <p>ortopedia natal. (2023, March 14). Prótesis de Miembro Superior Estéticas - ORTOPEDIA NATAL. ORTOPEDIA NATAL. https://ortopedianatal.com/protesis/protesis-de-miembro-superior/protesis-de-miembro-superior-esteticas/</p>
-        <p>ortopedia natal. (2023, March 14). Prótesis de Miembro Superior Estéticas - ORTOPEDIA NATAL. ORTOPEDIA NATAL. https://ortopedianatal.com/protesis/protesis-de-miembro-superior/protesis-de-miembro-superior-esteticas/</p>
-        <p>Maturana, J. (2021, March 25). Prótesis mioeléctricas: impensable lo que puede hacer un mes después de recibirla. Computer Hoy. https://computerhoy.20minutos.es/noticias/tecnologia/protesis-mioelectricas-impensable-puede-hacer-usuaria-mes-despues-recibirla-836767</p>
-    </div>
-
+    <footer>
+        <p>© 2024 Eder Sanchez</p>
+    </footer>
 </body>
 </html>
